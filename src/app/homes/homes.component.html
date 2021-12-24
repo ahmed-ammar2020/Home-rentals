@@ -1,0 +1,80 @@
+<div class="uk-container uk-padding">
+  <h1>Homes</h1>
+  <!-- filtering buttons  -->
+  <div class="uk-margin uk-grid-small" uk-grid>
+    <div>
+      <button
+        (click)="toggleDropdown()"
+        class="uk-button uk-button-default uk-button-small"
+        [ngClass]="{ 'uk-button-primary': currentFilters.length }"
+      >
+        Home Type
+      </button>
+      <div class="uk-dropdown uk-open" *ngIf="dropdownOpen">
+        <app-home-type-filter
+          (applied)="getHomeTypeFilters($event)"
+          [defaultFilters]="currentFilters"
+        ></app-home-type-filter>
+      </div>
+    </div>
+    <div>
+      <button class="uk-button uk-button-default uk-button-small">Dates</button>
+    </div>
+    <div>
+      <button class="uk-button uk-button-default uk-button-small">
+        Guests
+      </button>
+    </div>
+  </div>
+
+  <app-home-search
+    (appied)="getSearch($event)"
+    [deafultSearch]="currentSearch"
+  ></app-home-search>
+
+  <div *ngIf="(homes$ | async).loading">
+    <div class="sk-cube-grid">
+      <div class="sk-cube sk-cube1"></div>
+      <div class="sk-cube sk-cube2"></div>
+      <div class="sk-cube sk-cube3"></div>
+      <div class="sk-cube sk-cube4"></div>
+      <div class="sk-cube sk-cube5"></div>
+      <div class="sk-cube sk-cube6"></div>
+      <div class="sk-cube sk-cube7"></div>
+      <div class="sk-cube sk-cube8"></div>
+      <div class="sk-cube sk-cube9"></div>
+    </div>
+  </div>
+
+  <div *ngIf="!(homes$ | async).loading && !(homes$ | async).data.length">
+    No homes found
+  </div>
+
+  <ng-container *ngIf="(homes$ | async).data.length">
+    <div uk-grid class="uk-child-width-1-3@s">
+      <div *ngFor="let home of (homes$ | async).data">
+        <div class="uk-card uk-card-default">
+          <div class="uk-card-media-top">
+            <img [src]="home.imageUrl" alt="" />
+          </div>
+          <div class="uk-card-body">
+            <h3
+              class="
+                uk-card-title
+                uk-text-truncate
+                uk-text-small
+                uk-text-muted
+                uk-text-nowrap
+              "
+            >
+              {{ home.type + " / " + home.location }}
+            </h3>
+            <p class="uk-text-bold">
+              {{ home.title }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>

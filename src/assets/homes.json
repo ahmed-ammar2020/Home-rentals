@@ -1,0 +1,56 @@
+[
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXBhcnRtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "appartment",
+    "location": "Alexandria",
+    "title": "An appartment in the center of Alexandria with a good view"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBhcnRtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "room",
+    "location": "Cairo",
+    "title": "A room with enough space in El-salam"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YXBhcnRtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "appartment",
+    "location": "Cairo",
+    "title": "An appartment in the center of Cairo"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXBhcnRtZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "house",
+    "location": "Alexandria",
+    "title": "A house in the center of Alexandria with a view on the sea"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFwYXJ0bWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "room",
+    "location": "Tanta",
+    "title": "An appartment in Tanta"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGFwYXJ0bWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "appartment",
+    "location": "Sharm",
+    "title": "An appartment in the center of Sharm"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1622866306950-81d17097d458?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFwYXJ0bWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "house",
+    "location": "Alexandria",
+    "title": "A house in the center of Alexandria with a view on the sea"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFwYXJ0bWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "house",
+    "location": "Alexandria",
+    "title": "An appartment in the center of Alexandria"
+  },
+  {
+    "imageUrl": "https://images.unsplash.com/photo-1507149833265-60c372daea22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGFwYXJ0bWVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+    "type": "appartment",
+    "location": "Alexandria",
+    "title": "An appaertment in the center of Alexandria with a view on the sea"
+  }
+]

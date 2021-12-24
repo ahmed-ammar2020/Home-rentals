@@ -1,0 +1,40 @@
+<form action="" [formGroup]="filterForm" (ngSubmit)="submitForm()">
+  <div>
+    <div class="uk-padding-small">
+      <label for="appartment">
+        <input
+          type="checkbox"
+          class="uk-checkbox"
+          formControlName="appartment"
+          id="appartment"
+        />
+        Appartment
+      </label>
+    </div>
+    <div class="uk-padding-small">
+      <label for="house">
+        <input
+          type="checkbox"
+          class="uk-checkbox"
+          formControlName="house"
+          id="house"
+        />
+        House
+      </label>
+    </div>
+    <div class="uk-padding-small">
+      <label for="room">
+        <input
+          type="checkbox"
+          class="uk-checkbox"
+          formControlName="room"
+          id="room"
+        />
+        Room
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="uk-button uk-button-link uk-align-right">
+    Apply
+  </button>
+</form>
